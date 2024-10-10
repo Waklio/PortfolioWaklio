@@ -1,6 +1,7 @@
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/waklioNetoProfile.png";
 import { motion } from "framer-motion";
+import CV from "../assets/MeuCV.pdf";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -37,6 +38,11 @@ const Hero = () => {
             variants={container(1)}
             initial="hidden"
             animate="visible" className="my-2 max-w-xl py-6 font-light">{HERO_CONTENT}</motion.p>
+             <a href={CV} download>
+              <button className="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out">
+                Resume
+              </button>
+            </a>
           </div>
         </div>
         <div className="w-ful lg:w-1/2 lg:p-8">
