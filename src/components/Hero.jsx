@@ -43,7 +43,7 @@ const Hero = () => {
             >
               {HERO_CONTENT}
             </motion.p>
-            <div className="flex space-x-2">
+            <div className="flex space-x-2 mb-4">
               <a href={CVemPT} download>
                 <button className="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out">
                   Resume (PT)
