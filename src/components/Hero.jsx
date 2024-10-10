@@ -1,7 +1,8 @@
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/waklioNetoProfile.png";
 import { motion } from "framer-motion";
-import CV from "../assets/MeuCV.pdf";
+import CVemPT from "../assets/CV_PT.pdf";
+import CVemEN from "../assets/CV_EN.pdf";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -34,26 +35,37 @@ const Hero = () => {
             >
               Computer Enginnering and Full Stack Developer
             </motion.span>
-            <motion.p 
-            variants={container(1)}
-            initial="hidden"
-            animate="visible" className="my-2 max-w-xl py-6 font-light">{HERO_CONTENT}</motion.p>
-             <a href={CV} download>
-              <button className="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out">
-                Resume
-              </button>
-            </a>
+            <motion.p
+              variants={container(1)}
+              initial="hidden"
+              animate="visible"
+              className="my-2 max-w-xl py-6 font-light"
+            >
+              {HERO_CONTENT}
+            </motion.p>
+            <div className="flex space-x-2">
+              <a href={CVemPT} download>
+                <button className="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out">
+                  Resume (PT)
+                </button>
+              </a>
+              <a href={CVemEN} download>
+                <button className="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out">
+                  Resume (EN)
+                </button>
+              </a>
+            </div>
           </div>
         </div>
         <div className="w-ful lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
-            <motion.img 
+            <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
               src={profilePic}
               alt="Waklio Neto"
-              className="rounded-2xl" 
+              className="rounded-2xl"
             />
           </div>
         </div>

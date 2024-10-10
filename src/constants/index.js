@@ -23,15 +23,20 @@ export const EXPERIENCES = [
     description: `I worked as an IT support intern, documenting, maintaining, and establishing server services.`,
     technologies: ["Linux", "Docker"],
   },
+
+];
+
+export const University = [
   {
-    year: "2014 - 2024",
+    year: "2024",
     role: "Computer Engineering student.",
     company: "Universidade Federal do Ceará",
-    description: `Computer Engineering student at the Federal University of Ceará.`,
+    description: `Recently graduated in Computer Engineering from the Federal University of Ceará.`,
     technologies: [],
     Link:[]
-  },
-];
+  }
+
+]
 
 export const PROJECTS = [
   {
@@ -40,7 +45,7 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.ONGOING",
     technologies: ["CSS", "React", "Node.js", "MongoDB", "Express"],
-    link: "https://www.youtube.com/"
+    link: "#"
     
   },
   {
