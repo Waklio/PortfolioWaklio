@@ -44,7 +44,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.ONGOING",
-    technologies: ["CSS", "React", "Node.js", "MongoDB", "Express"],
+    technologies: ["CSS", "React", "Node.js", "MongoDB", "Express",],
     link: "#"
     
   },
@@ -53,7 +53,7 @@ export const PROJECTS = [
     image: project2,
     description:
       "Application developed in the Empreende program at UFC aimed at performing a preliminary diagnosis of bruxism.ONGOING",
-    technologies: ["React", "CSS", "GitHub", "Axios"],
+    technologies: ["React", "TailwindCSS", "GitHub", "Axios", "Typescript"],
     link: "https://github.com/Morpheus-HealthSystem"
     
   },
@@ -62,7 +62,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "It’s a Visual Novel game with simple and fun gameplay. Based on real projects from the city of Sobral-CE, Miss Perifa brings culture, diversity, and knowledge! The game is available in Libras (Brazilian Sign Language)!",
-    technologies: [ "Jira", "Python", "Ren'py"],
+    technologies: [ "Jira", "Python", "Ren'py", "Github"],
     link: "https://github.com/faresmts/e-o-gera"
   },
   {
@@ -70,7 +70,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "Web platform for controlling air conditioning developed as a project for my graduation thesis.",
-    technologies: ["HTML", "CSS", "javascript", "c++", "Github"],
+    technologies: ["HTML", "CSS", "javascript", "c++", "Github", "Websockets"],
     link: "https://github.com/orgs/wxn-controller/repositories?q=visibility%3Apublic+archived%3Afalse"
   },
 ];
